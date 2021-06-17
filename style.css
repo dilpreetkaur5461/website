@@ -1,0 +1,272 @@
+body {
+    font-family: sans-serif;
+    text-align:center;
+    color:#ddd;
+    margin:0px;
+}
+header{
+    position: fixed;
+    width: 100%;
+    /* top: 0px; */
+    padding: 20px 0px;
+    background-color: #991000;
+    z-index: 1;
+
+}
+.container{
+   width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#wrapper{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+.logo{
+    float:left;
+    background-color: #fafafa00;
+}
+.logo img{
+    width:80px;
+    height:80px;
+}
+    
+nav{
+    float: right;
+    margin-top: 2.5em;
+    word-spacing: 3em;
+    /* padding: 10px; */
+   }
+nav a{
+    text-decoration: none;
+    /* display: inline; */
+    /* width: 100%; */
+    /* padding: 5px 0px; */
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: inherit;
+
+}
+a:hover { 
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    
+}
+main{
+   background-color: #333;
+   padding:0px;
+    margin:0px;
+   
+} 
+#home
+{   
+    padding:1px;
+    background-image: url(images/headerbg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height:700px;
+}
+ .headline{
+     position: relative;
+    top: 40%;
+    width: 40%;
+    color: #eee;
+    text-align: center;
+}
+.highlight{
+    color: #b01200;
+    font-size: 1.5em;
+}
+.highlight:hover{
+    color:#fff;
+    background-color:  #b01200;
+    border-radius:5px;
+}
+
+#services{
+    background-image: url(images/servicesbg.jpg);
+    background-repeat: no-repeat;
+    padding:20px;
+    background-size: cover;
+    text-align: center;
+    height: 560px;
+    width: auto;
+    color: #fdf7f9;
+    }
+.care{
+    height:250px;
+    width:250px;
+    float:left;
+    margin-left:30px;
+    margin-top: 80px;
+    color:#fff;
+    
+}
+.care img {
+    
+    height: 100%;
+    width: 100%;
+    border-radius: 128px;
+    border: 2px solid #991000;
+}
+
+
+
+
+#staff{
+  background-image: url(images/staffbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 540px;
+    width: auto;
+    padding: 20px;
+    color:#991000;
+}
+
+.team{
+      height: 320px;
+    width: 220px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 45px;
+    color: #820d00;
+    position: relative;
+    
+}
+.team img {
+    height: 100%;
+    width: 100%;
+    border-radius: 18px;
+    border: 2px solid #991000;
+}
+.team h3{
+    position: absolute;
+    top: 273px;
+    right: 0px;
+    left: 0px;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+.team:hover{
+   box-shadow: 6px 10px 16px 1px #727272;
+   border-radius: 15px;
+}
+#contact{
+    background-image: url(images/contact_bg.jpg);
+    background-size: cover;
+    height:440px;
+    padding:20px;
+    color:#ffffff;
+}
+.contact1{
+    
+    color: #868585;
+    float: left;
+    width: 20%;
+    /* height: 7%; */
+    /* max-height: 38%; */
+    background-color: #fff;
+    margin-left: 85px;
+    margin-top: 62px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 3px 10px 2px #820d00;
+
+}
+.contact1 h4{
+    margin-bottom:0px;
+    margin-top: 0px;
+}
+
+.care img:hover{
+      border-color: white;
+    border-radius: 140px;
+    padding: 0px;
+    height: 260px;
+    width: 260px;
+    transition-duration: 0.2s;
+}
+.iconl img{
+    width:100%;
+}
+
+.icone img{
+    width:100%;
+}
+
+.iconc img{
+    width:100%;
+}
+.iconl:hover{
+    opacity: 0.9;
+}
+
+.icone:hover{
+    opacity: 0.9;
+}
+.iconc:hover{
+    opacity: 0.9;
+}
+
+.iconl{
+    bottom: 0px;
+    position: relative;
+    left: 190px;
+    width: 50px;
+    height: 50px;
+    opacity: 0.2;
+}
+
+.icone{
+    position: relative;
+    bottom: 0px;
+    left: 180px;
+    width: 50px;
+    margin-top: 18px;
+    height: 50px;
+    opacity: 0.2;
+}
+
+.iconc{
+    position: relative;
+    bottom: 0px;
+    left: 190px;
+    width: 50px;
+    height: 50px;
+    opacity: 0.2;
+}
+
+.social{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: white;
+    width:100%;
+    word-spacing: 5px;
+}
+.social ul{
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:10px;
+    padding-left: 0px;
+}
+a img{
+    width:25px;
+
+}
+.social ul a:hover{
+    opacity:0.5;
+}
+footer{
+    background-color: #991000;
+}
+footer h6{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
